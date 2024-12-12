@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { DndProvider } from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
 import FormPreview from './FormPreview';
-import DraggableElement from './DraggableElement';
 import { generateValidationSchema } from '../utils/validationSchema';
 
 const FormBuilder = () => {
