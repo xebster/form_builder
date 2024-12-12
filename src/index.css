@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  padding: 20px;
+}
+
+.toolbar, .layout-picker {
+  margin-bottom: 20px;
+}
+
+.form-preview {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.multi {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.form-element {
+  margin-bottom: 10px;
+}
+
+.form-element label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.dropdown-editor {
+  margin-top: 10px;
+}
+
+.option-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.option-item input {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.option-item button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.option-item button:hover {
+  background-color: #c0392b;
+}
+
